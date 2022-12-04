@@ -9,6 +9,7 @@
      xmlns:skivo="http://www.semanticweb.org/nehakeshan/2022/skivo#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg">
         <owl:imports rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo"/>
+        <skivo:creator>Neha Keshan</skivo:creator>
     </owl:Ontology>
     
 
