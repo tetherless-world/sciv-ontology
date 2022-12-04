@@ -68,6 +68,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Academe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Academe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Analyzing_experimental_results -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Analyzing_experimental_results">
@@ -377,6 +385,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Industry_or_business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Industry_or_business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Intellectual_property -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Intellectual_property">
@@ -512,11 +536,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Non_Profit_Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Non_Profit_Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Organizing_things_creating_systems_in_the_workplace -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Organizing_things_creating_systems_in_the_workplace">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Interests"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizing things, creating systems in the workplace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Other_or_unknown_sector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Other_or_unknown_sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
     </owl:Class>
     
 
