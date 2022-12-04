@@ -17,6 +17,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Scientific_Career"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -757,6 +777,14 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Scientific_Career"/>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testing specialist in an environmental, public health, genetics, or forensic science setting (intelligence agencies, federal/state departments of justice); clinical diagnostician</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scientific/medical testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
     </owl:Class>
     
 
