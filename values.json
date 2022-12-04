@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"values","startColumn":"A","endColumn":"E","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: @B*\nAnnotations: rdfs:label @C*\nAnnotations: rdfs:isDefinedBy @D*\nFacts: correspondingQuestion @E*","active":true}]}
