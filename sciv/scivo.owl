@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nehakeshan/2022/skivo#"
+     xml:base="http://www.semanticweb.org/nehakeshan/2022/skivo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skivo="http://www.semanticweb.org/nehakeshan/2022/skivo#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo">
+        <rdfs:comment>Neha Keshan</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#hasResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#hasResource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Resources"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#isResourceFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#isResourceFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#mayFulfilValues -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#mayFulfilValues">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Values"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#requiresInterests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#requiresInterests">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Interests"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#requiresSkills -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#requiresSkills">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Skills"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#withInterestLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#withInterestLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Interests"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Passion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#withProficiencyLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#withProficiencyLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Skills"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nehakeshan/2022/skivo#Proficiency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#CareerPath">
+        <rdfs:isDefinedBy>Different available career paths that an individual can explore based on the skills, interests, and values possessed.</rdfs:isDefinedBy>
+        <rdfs:label>Career Paths</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Interests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Interests">
+        <rdfs:isDefinedBy>An individual&apos;s interests.</rdfs:isDefinedBy>
+        <rdfs:label>Interests</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Passion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Passion">
+        <rdfs:isDefinedBy>The level of interests an individual has.</rdfs:isDefinedBy>
+        <rdfs:label>Passion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Proficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Proficiency">
+        <rdfs:isDefinedBy>Proficiency level required as per the experts.</rdfs:isDefinedBy>
+        <rdfs:label>Proficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Resources">
+        <rdfs:isDefinedBy>Different available resources, including books, articles and professional societies, for exploring the career paths.</rdfs:isDefinedBy>
+        <rdfs:label>Resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Skills">
+        <rdfs:isDefinedBy>Different skills possessed by an individual that may help in various career paths.</rdfs:isDefinedBy>
+        <rdfs:label>Skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nehakeshan/2022/skivo#Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/skivo#Values">
+        <rdfs:isDefinedBy>Personal values possessed that act as an individual&apos;s driving force.</rdfs:isDefinedBy>
+        <rdfs:label>Values</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
