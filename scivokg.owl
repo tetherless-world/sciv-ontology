@@ -72,6 +72,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Academe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+        <rdfs:label>Academe</rdfs:label>
     </owl:Class>
     
 
@@ -389,6 +390,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Government">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+        <rdfs:label>Government</rdfs:label>
     </owl:Class>
     
 
@@ -397,6 +399,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Industry_or_business">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+        <rdfs:label>Industry or business</rdfs:label>
     </owl:Class>
     
 
@@ -540,6 +543,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Non_Profit_Organization">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+        <rdfs:label>Non profit organization</rdfs:label>
     </owl:Class>
     
 
@@ -557,6 +561,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nehakeshan/2022/scivokg#Other_or_unknown_sector">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nehakeshan/2022/scivokg#Sector"/>
+        <rdfs:label>Other sectors not mentioned above.</rdfs:label>
     </owl:Class>
     
 
