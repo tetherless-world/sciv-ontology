@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Career Path List","startColumn":"A","endColumn":"C","startRow":"2","endRow":"40","comment":"","rule":"Class: @A* SubClassOf: @B*\nAnnotations: rdfs:label @C*","active":true}]}

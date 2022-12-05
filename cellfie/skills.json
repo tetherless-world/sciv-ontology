@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"skills","startColumn":"A","endColumn":"D","startRow":"2","endRow":"38","comment":"","rule":"Class: @A* SubClassOf: @B*\n   Annotations: rdfs:label @D*","active":true},{"sheetName":"skills","startColumn":"A","endColumn":"D","startRow":"2","endRow":"38","comment":"","rule":"Class: @B* SubClassOf: @C*","active":true}]}
