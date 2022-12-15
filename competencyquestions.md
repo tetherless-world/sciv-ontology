@@ -63,7 +63,7 @@ title: Competency Questions
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?SectorsToExplore
@@ -85,7 +85,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Sector.
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?ScientificCareerPaths
@@ -107,7 +107,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?ScientificCareerPaths
@@ -156,7 +156,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?Skill ?SkillProficiencyLevel
@@ -182,7 +182,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?Interest ?InterestLevel
@@ -209,7 +209,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?Resources ?Link
@@ -235,7 +235,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?Values ?QuestionsToConsider
@@ -259,7 +259,7 @@ WHERE{ ?s rdf:type scivo:Values.
   <ul type = "circle">
     <li> <strong>Query:</strong> <br/>
       <pre>
-prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/skivo#>
+prefix scivo: <http://www.semanticweb.org/nehakeshan/2022/scivo#>
 prefix scivokg: <http://www.semanticweb.org/nehakeshan/2022/scivokg#>
 
 SELECT ?Values ?QuestionsToConsider
