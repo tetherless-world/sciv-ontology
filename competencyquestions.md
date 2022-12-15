@@ -26,7 +26,7 @@ title: Competency Questions
     <td>The twenty scientific career paths that the student can explore.</td>
   </tr>
   <tr>
-	  <td><a href="#question3">(Q3).I consider myself as an &lt;proficiency\_level&gt; in &lt;skill&gt;. Which scientific career paths can I explore that requires this &lt;skill&gt; with my &lt;proficiency\_level&gt;? For example, Which scientific career paths require an expert proficiency level in creativity/innovative thinking?</td>
+	  <td><a href="#question3"></a>(Q3).I consider myself as an &lt;proficiency\_level&gt; in &lt;skill&gt;. Which scientific career paths can I explore that requires this &lt;skill&gt; with my &lt;proficiency\_level&gt;? For example, Which scientific career paths require an expert proficiency level in creativity/innovative thinking?</td>
     <td>The scientific career paths in the system that requires an individual to be an expert in creativity/innovative thinking.</td>
   </tr>
   <tr>
