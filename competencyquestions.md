@@ -75,7 +75,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Sector.
 	 </li>
   </ul>
   <figure>
-  <!-- <img src ="../images/QUERY1RESULTS.png" style="width:100%; height:100%">   -->
+  <img src ="../blazegraph/SPARQL/QueryResults/sectors.png" style="width:100%; height:100%">  
   <figcaption>Fig 1. Blazegraph Workbench Output for the Query 1</figcaption>  
   </figure>
   </li>  
@@ -97,7 +97,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY2RESULT.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/scientificCareerPaths_1.png" style="width:100%; height:100%">  
  <figcaption>Fig 2. Blazegraph Workbench Output for the Query 2</figcaption> 
  </figure>
   </li>  
@@ -122,7 +122,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY3RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/sc_definition.png" style="width:100%; height:100%">  
  <figcaption>Fig 3. Blazegraph Workbench Output for the Query 3.</figcaption> 
  </figure>
   </li>  
@@ -145,7 +145,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY4RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/sc_specificSkill_profInSkill.png" style="width:100%; height:100%">  
  <figcaption>Fig 4. Blazegraph Workbench Output for the Query 4.</figcaption>
  </figure>
 
@@ -172,7 +172,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY5RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/zoomed_skill_prof_principalInvestigator.png" style="width:100%; height:100%">  
  <figcaption>Fig 5. Blazegraph Workbench Output for the Query 5. </figcaption> 
  </figure>
   </li> 
@@ -198,7 +198,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY4RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/zoomed_Interest_level_principalInvest.png" style="width:100%; height:100%">  
  <figcaption>Fig 6. Blazegraph Workbench Output for the Query 6.</figcaption>
  </figure>
 
@@ -224,7 +224,7 @@ WHERE{ ?s rdf:type scivokg:Principal_investigator_in_a_research-intensive_instit
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY4RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/articles_principalInvestigator.png" style="width:100%; height:100%">  
  <figcaption>Fig 7. Blazegraph Workbench Output for the Query 7.</figcaption>
  </figure>
 
@@ -248,7 +248,7 @@ WHERE{ ?s rdf:type scivo:Values.
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY4RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/values1.png" style="width:100%; height:100%">  
  <figcaption>Fig 8. Blazegraph Workbench Output for the Query 8.</figcaption>
  </figure>
 
@@ -273,7 +273,7 @@ WHERE{ ?s rdf:type scivo:Values.
 	 </li>
   </ul>
  <figure>
- <!-- <img src ="../images/cQUERY4RESULTS.png" style="width:100%; height:100%">   -->
+ <img src ="../blazegraph/SPARQL/QueryResults/chosenValueQuestions.png" style="width:100%; height:100%">  
  <figcaption>Fig 9. Blazegraph Workbench Output for the Query 9. </figcaption>
  </figure>
 
