@@ -75,7 +75,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Sector.
 	 </li>
   </ul>
   <figure>
-  <img src ="../blazegraph/SPARQL/QueryResults/sectors.png" style="width:100%; height:100%">  
+  <img src ="../QueryResults/sectors.png" style="width:100%; height:100%">  
   <figcaption>Fig 1. Blazegraph Workbench Output for the Query 1</figcaption>  
   </figure>
   </li>  
