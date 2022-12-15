@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+remote_theme: adobe/hyde-theme@v1.0.0
 
 # Permalinks
 permalink:        pretty
