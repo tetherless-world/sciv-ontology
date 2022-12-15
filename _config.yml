@@ -7,12 +7,12 @@ permalink:        pretty
 
 # Setup
 title:            SKills to Career with Interests and Values Ontology
-url:               https://nehakeshan.github.io/
-baseurl:          https://nehakeshan.github.io/test/
+url:              https://tetherless-world.github.io/
+baseurl:          https://tetherless-world.github.io/skiv-ontology/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Neha Keshan'
+  url:            https://www.linkedin.com/in/neha-keshan-b509324b/
 
 paginate:         5
 
@@ -20,4 +20,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://nehakeshan.github.io/test/
+  repo:           https://tetherless-world.github.io/skiv-ontology/

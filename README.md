@@ -1,1 +1,1 @@
-testing the final site.
+Checking the theme fix.
