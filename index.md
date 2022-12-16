@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Institute Demographic Ontology (InDO)
+title: Skills to Career with Interests and Values Ontology (SCIVO)
 ---
 
 [Abstract](#abstract) | [Resources](#resources) | [Tools Used](#toolsused)
