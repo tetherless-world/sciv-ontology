@@ -145,7 +145,7 @@ WHERE{ ?s rdfs:subClassOf scivokg:Scientific_Career.
 	 </li>
   </ul>
  <figure>
- <img src ="../blazegraph/SPARQL/QueryResults/sc_specificSkill_profInSkill.png" style="width:100%; height:100%">  
+ <img src ="../blazegraph/SPARQL/QueryResults/sc_specificSkill_profInSKill.png" style="width:100%; height:100%">  
  <figcaption>Fig 4. Blazegraph Workbench Output for the Query 4.</figcaption>
  </figure>
 
