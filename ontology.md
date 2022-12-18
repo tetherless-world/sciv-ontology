@@ -17,9 +17,9 @@ title: Skills to Career with Interests and Values Ontology
    <h3 id="ontologylinks">Ontology Links</h3>
   <ul>
    <li>SCIVO can be accessed from <a href="https://github.com/tetherless-world/skiv-ontology/blob/main/scivo/scivo.owl">https://github.com/tetherless-world/skiv-ontology/blob/main/scivo/scivo.owl</a></li>
-   </br>
+   <br>
    <li>SCIVO instances (SCIVOKG) can be accessed from <a href="https://raw.githubusercontent.com/tetherless-world/sciv-ontology/main/scivo/scivokg.owl">https://raw.githubusercontent.com/tetherless-world/sciv-ontology/main/scivo/scivokg.owl</a></li>
-   </br>
+   <br>
    <li> Cellfie rules used can be accessed from <a href="https://github.com/tetherless-world/sciv-ontology/tree/main/cellfie">https://github.com/tetherless-world/sciv-ontology/tree/main/cellfie</a></li>
   </ul>
   
