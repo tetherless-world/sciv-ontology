@@ -102,7 +102,7 @@ All the thirty-five plus interests discussed in myIDP become direct subclasses o
  We demonstrated how two heterogeneous resource can be harmonized using SCIVO to help students get a better picture towards making an informed decision by adding sectors from NSF 2019 Doctoral Survey Recipients data (<a href="#fig4">Figure. 4</a>). 
 
 
-<img src="../images/nsfscivo.png" style="width:100%; height:100%"/>  
+<img src="../images/nsf_scivo.png" style="width:100%; height:100%"/>  
   <caption id="fig4">Figure 4. A conceptual diagram depicting the classes of our Skills to Career with Interests and Values Ontology.</caption>
 
 
