@@ -5,10 +5,10 @@ Our resource website can be accessed from: https://tetherless-world.github.io/sk
 <strong>Links to files for the resources in the repository are</strong>:
 
 Skills to Career with Interests and Values Ontology:  https://github.com/tetherless-world/skiv-ontology/blob/main/scivo/scivo.owl <br/>
-Skills to Career with Interests and Values Ontology Instances (Knowledge Graph): https://raw.githubusercontent.com/tetherless-world/skiv-ontology/main/scivo/scivokg.owl<br/>
+Skills to Career with Interests and Values Ontology Instances (Knowledge Graph): https://raw.githubusercontent.com/tetherless-world/sciv-ontology/main/scivo/scivokg.owl<br/>
 
-The Cellfie rules used to create the knowledge graph can be accessed at: https://github.com/tetherless-world/skiv-ontology/tree/main/cellfie
+The Cellfie rules used to create the knowledge graph can be accessed at: https://github.com/tetherless-world/sciv-ontology/tree/main/cellfie
 
 <br/>
 
-SPARQL Queries can be accessed from our website and run against the InDO to reproduce results that we show at: https://tetherless-world.github.io/skiv-ontology/competencyquestions/#sparql
+SPARQL Queries can be accessed from our website and run against the InDO to reproduce results that we show at: https://tetherless-world.github.io/sciv-ontology/competencyquestions/#sparql
