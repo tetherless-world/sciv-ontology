@@ -97,6 +97,13 @@ All the thirty-five plus interests discussed in myIDP become direct subclasses o
 
 
 <br>
+
+<p>myIDP Reference: Fuhrmann, C., Hobin, J., Lindstaedt, B., et al.: myidp, an online interactive career
+planning tool. aaas (american association for the advancement of science). Website
+launched Sept 7 (2012) </p>
+
+<br>
+
 <h2 id="nsf"> NSF Doctoral Recipients Survey 2019 in Machine Readable form </h2>
 
  We demonstrated how two heterogeneous resource can be harmonized using SCIVO to help students get a better picture towards making an informed decision by adding sectors from NSF 2019 Doctoral Survey Recipients data (<a href="#fig4">Figure. 4</a>). 
@@ -105,5 +112,8 @@ All the thirty-five plus interests discussed in myIDP become direct subclasses o
 <img src="../images/nsf_scivo.png" style="width:100%; height:100%"/>  
   <caption id="fig4">Figure 4. A conceptual diagram depicting the classes of our Skills to Career with Interests and Values Ontology.</caption>
 
+<p>NSF SED Reference: Foley, D.: Survey of doctorate recipients, 2019. nsf 21-230.national center for sci-
+ence and engineering statistics (ncses), alexandria, va: National science foundation.
+available at https://ncses.nsf.gov/pubs/nsf21320/ (2021)</p>
 
 </content>
