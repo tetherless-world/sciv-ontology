@@ -10,9 +10,14 @@ title: Use cases
   
   
 <h2 id="myidp"> Science Individual Development Plan tool - myIDP </h2>
- <p> We demonstrate the use of SCIVO by designing and ingesting Science Individual Development Plan tool - myIDP data (henceforth refered to as myIDP). The individual development plan, a method to help students in choosing their future employment, was proposed by the Federation of American Societies for Experimental Biology (FASEB) for postdoctoral fellows in sciences. AAAS/Science, with the help of FASEB and other experts, expanded on this framework to create myIDP for doctoral students in science. Anyone can create a free account and take different tests to get the percentage skill and interest match with the twenty scientific careers (<a href="#fig2">Figure. 2</a>) that graduate students typically pursue. The match is done with expert average ratings from one to five for the various skills and interests each of these career path require. <a href="#fig3">Figure. 3</a> represents an overview of how SCIVO has been extended to incorporate the required classes for myIDP data.</p>
+ <p> We demonstrate the use of SCIVO by designing and ingesting Science Individual Development Plan tool - myIDP data (henceforth refered to as myIDP). The individual development plan, a method to help students in choosing their future employment, was proposed by the Federation of American Societies for Experimental Biology (FASEB) for postdoctoral fellows in sciences. AAAS/Science, with the help of FASEB and other experts, expanded on this framework to create myIDP for doctoral students in science. Anyone can create a free account and take different tests to get the percentage skill and interest match with the twenty scientific careers (<a href="#fig2">Figure. 2</a>) that graduate students typically pursue. The match is done with expert average ratings from one to five for the various skills and interests each of these career path require. </p>
  
- <p>We assume that this information could be beneficial for graduate student to explore scientific career paths from the known twenty career paths provided on myIDP. As a proof of concept, we have integrated one-thousand seven-hundred and forty data points from myIDP as below by extending and intantiating the SCIVO classes.
+<img src="../images/myIDP_snippet.png" style="width:100%; height:100%"/>  
+ <caption id="fig2">Figure 2. A snippet of myIDP frame. (a) The image depicts the screenshot of how the pop up looks after the test is taken. Each cell under skills, interests and values column opens a new pop up window. Image (b), (c) and (d) are parts of the screenshots demonstrating the interests match, skill match and values to consider for career path 'Principal Investigator at a research intensive institute'.</caption>
+
+ <br>
+
+ <p>We assume that this information could be beneficial for graduate student to explore scientific career paths from the known twenty career paths provided on myIDP. <a href="#fig3">Figure. 3</a> represents an overview of how SCIVO has been extended to incorporate the required classes for myIDP data. As a proof of concept, we have integrated one-thousand seven-hundred and forty data points from myIDP as below by extending and intantiating the SCIVO classes.
     <ul>
 		<li> Twenty Scientific Career Paths available for Science, Technology, Engineering, and Math (STEM) doctorates with their definitions. </li>
 		<li> Broad and fine skills possessed by one </li>
@@ -21,11 +26,9 @@ title: Use cases
 	</ul>
 </p>
 
- <img src="../images/myIDP_snippet.png" style="width:100%; height:100%"/>  
- <caption id="fig2">Fig 2. A snippet of myIDP frame. (a) The image depicts the screenshot of how the pop up looks after the test is taken. Each cell under skills, interests and values column opens a new pop up window. Image (b), (c) and (d) are parts of the screenshots demonstrating the interests match, skill match and values to consider for career path 'Principal Investigator at a research intensive institute'.</caption>
-  
+ 
 <img src="../images/myIDP_scivo1.png" style="width:100%; height:100%"/>  
-<caption id="fig3">Fig 3. A conceptual diagram representing a part of SCIVOKG created by extending the SCIVO ontology for the myIDP use case. Light blue boxes represent classes added for the knowledge graph as subclasses of SCIVO.</caption>
+<caption id="fig3">Figure 3. A conceptual diagram representing a part of SCIVOKG created by extending the SCIVO ontology for the myIDP use case. Light blue boxes represent classes added for the knowledge graph as subclasses of SCIVO.</caption>
   <br>
 
 <h3 id="careerpath">Mapping myIDP Scietific Career Path to "scivo:CareerPath"</h3>
