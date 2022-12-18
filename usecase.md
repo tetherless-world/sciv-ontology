@@ -41,7 +41,39 @@ The myIDP is built for scientific careers, hence, the scivokg:ScientificCareer c
 
 <h3 id="proficiency">Mapping myIDP skills proficiency to "scivo:Proficiency"</h3>
 
-<p>In myIDP, participants must rate each skill on a scale of one to five. The comparison is based on the expert's average score for each skill relative to  the participant's score. However, in reality, students are required to provide their skill proficiency levels. Therefore, for compatibility with many existing systems we mapped the myIDP five pointer to a four pointer skill levels (<a href="#fig3">Figure. 3</a>), as shown in Table~\ref{tab1}.</p>
+<p>In myIDP, participants must rate each skill on a scale of one to five. The comparison is based on the expert's average score for each skill relative to  the participant's score. However, in reality, students are required to provide their skill proficiency levels. Therefore, for compatibility with many existing systems we mapped the myIDP five pointer to a four pointer skill levels (<a href="#fig3">Figure. 3</a>), as shown in <a href="#tab1">Table 1</a>.</p>
+
+<table id="tab1">
+<thead>
+  <tr>
+    <th>myIDP Scores</th>
+    <th>Proficiency Levels</th>
+	<th>Passion Levels</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>0-2</td>
+    <td>Beginner</td>
+	<td>Low</td>
+  </tr>
+  <tr>
+    <td>2.1-3</td>
+    <td>Intermediate</td>
+	<td>Medium</td>
+  </tr>
+  <tr>
+    <td>3.1-4</td>
+    <td>Proficient</td>
+	<td>High</td>
+  </tr>
+  <tr>
+    <td>4.1-5</td>
+    <td>Expert</td>
+	<td>Very High</td>
+  </tr>
+</tbody>
+</table>
 
 <h3 id="resources">Mapping myIDP Resources to "scivo:Resources"</h3>
 
@@ -56,7 +88,7 @@ All the thirty-five plus interests discussed in myIDP become direct subclasses o
 
 <h3 id="passion">Mapping myIDP Interests level to "scivo:Passion"</h3>
 
-<p>Similar to the skill level, each participant is required to rate their interest level on a scale of one to five. This is then used to compare with the average expert values as a factor to calculate the percentage of career paths matching. We use the ``scivo:Passion" class to connect the interest level with the passion level using the Table ~\ref{tab1}.</p>
+<p>Similar to the skill level, each participant is required to rate their interest level on a scale of one to five. This is then used to compare with the average expert values as a factor to calculate the percentage of career paths matching. We use the ``scivo:Passion" class to connect the interest level with the passion level using the <a href="#tab1">Table 1</a>.</p>
 
 
 <h3 id="values">Mapping myIDP Values to "scivo:Values"</h3>
@@ -67,7 +99,11 @@ All the thirty-five plus interests discussed in myIDP become direct subclasses o
 <br>
 <h2 id="nsf"> NSF Doctoral Recipients Survey 2019 in Machine Readable form </h2>
 
- We demonstrated how two heterogeneous resource can be harmonized using SCIVO to help students get a better picture towards making an informed decision by adding sectors from NSF 2019 Doctoral Survey Recipients data. 
+ We demonstrated how two heterogeneous resource can be harmonized using SCIVO to help students get a better picture towards making an informed decision by adding sectors from NSF 2019 Doctoral Survey Recipients data (<a href="#fig4">Figure. 4</a>). 
+
+
+<img src="../images/nsfscivo.png" style="width:100%; height:100%"/>  
+  <caption id="fig4">Figure 4. A conceptual diagram depicting the classes of our Skills to Career with Interests and Values Ontology.</caption>
 
 
 </content>
