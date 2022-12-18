@@ -1,9 +1,10 @@
 ---
 layout: default
-title: InDO Use case
+title: Use cases
 ---
 
 [Science myIDP](#myidp) | [NSF SED 2019](#nsf)  
+
 <article class="mb-5" id="Use Case">
 <content>
   
