@@ -28,7 +28,7 @@ title: Skills to Career with Interests and Values Ontology
   <article class="mb-5" id="ontologymetadata">
   <content>
     <h3>Ontology Metadata</h3>
-    <p>Metadata that would be useful to navigate our <a href="#resources">resources</a>, i.e., ontology, modeling snippets and SPARQL queries. The content below can also be viewed by opening our Skills to Career with Interests and Values Ontology in an ontology editor, like, <a href="https://protege.stanford.edu/products.php#desktop-protege">Protégé 5.5.0</a>.
+    <p>Metadata that would be useful to navigate our <a href="#resources">resources</a>, i.e., ontology, modeling snippets and SPARQL queries. The content below can also be viewed by opening our Skills to Career with Interests and Values Ontology in an ontology editor, like, <a href="https://protege.stanford.edu/products.php#desktop-protege">Protégé 5.5.0</a>.</p>
       
   <h4> Ontology Prefixes </h4>
   <table style="width:100%">
@@ -63,7 +63,5 @@ title: Skills to Career with Interests and Values Ontology
     <tr>
     <td>scivokg</td>
     <td> <a href="https://raw.githubusercontent.com/tetherless-world/sciv-ontology/main/scivo/scivokg.owl"> Skills to Career with Interests and Values Ontology Instances (Knowledge Graph)</a> </td> 
-  </tr>  
-  <tr>
-    
+  </tr>    
 </table>
