@@ -9,7 +9,7 @@ title: Skills to Career with Interests and Values Ontology (SCIVO)
 <h1 class="page-title" style="text-transform:uppercase;" id="header">Skills to Career with Interests and Values (SCIVO)</h1>
 <h3 style="color:dimgrey;">Neha Keshan, James A. Hendler</h3>
 <h3><a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute</a></h3>
-<p class="message">A website to navigate resources open-sourced via the associated KGSWC 2023 submission. Use the side navigation panel to explore different sections of the website and click on an add symbol for more navigation options under some sections.</p>
+<p class="message">A website to navigate resources open-sourced for the Skills to Career with Interests and Values Ontology. Use the side navigation panel to explore different sections of the website and click on an add symbol for more navigation options under some sections.</p>
 
 <hr>
 <article class="mb-5" id="abstract">
