@@ -1,6 +1,6 @@
 This is a repository for the resources utilized for the KGSWC 2023 submission, "Skills to Career with Interests and Values Ontology(SCIVO)". We contribute the following publicly available artifacts: <strong>SCIVO</strong> with the skills + proficiency level required, interests + passion level required, values + questions related to them, and the various resources that could help one explore the twenty scientific career paths. Rules used to built the application knowledge graph through Protege plugin Cellfie and the SPARQL queries used to query and received the targeted responses through Blazegraph Workbench is also provided. The application documentation is available on our resource website for anyone interested in building scivo facilities into their systems. <br/>
 
-Our resource website can be accessed from: https://tetherless-world.github.io/skiv-ontology/ 
+Our resource website can be accessed from: https://tetherless-world.github.io/sciv-ontology/ 
 <br/>
 <strong>Links to files for the resources in the repository are</strong>:
 
