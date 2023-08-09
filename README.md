@@ -2,6 +2,7 @@ This is a repository for the resources open-sourced with "Skills to Career with 
 
 Our resource website can be accessed from: https://tetherless-world.github.io/sciv-ontology/ 
 <br/>
+
 <strong>Links to files for the resources in the repository are</strong>:
 
 Skills to Career with Interests and Values Ontology:  https://github.com/tetherless-world/skiv-ontology/blob/main/scivo/scivo.owl <br/>
