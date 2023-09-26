@@ -68,7 +68,7 @@ title: Skills to Career with Interests and Values Ontology (SCIVO)
   
 <h2>Tools Used during Development</h2>
   <ul>
-  <li>Ontology Editor: <a href="https://protege.stanford.edu/products.php#desktop-protege">Protégé 5.5.0</a></li>
+  <li>Ontology Editor: <a href="https://protege.stanford.edu/products.php#desktop-protege">Protégé 5.2.0</a></li>
   <li>SPARQL Queries ran on <a href="https://blazegraph.com/">Blazegraph Workbench</a></li>
   <li>RDF Visualization generated with <a href="http://jimmccusker.github.io/rdfviewer/">RDFViewer</a></li>
   </ul>
